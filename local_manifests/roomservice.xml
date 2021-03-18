@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="incom" fetch="https://gitlab.incom.co/" revision="lineage-18.1" /> 
+  
+  <project name="CM-Shield/proprietary_vendor_nvidia.git" path="vendor/nvidia" remote="incom" />
+  <project name="CM-Shield/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-6.4.1" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-6.4.1" remote="incom" />
+  
+  <project name="ThaMichie/android_device_google_dragon_shield" path="device/google/dragon" remote="github" revision="aosp" />
+  <project name="ThaMichie/android_kernel_google_dragon" path="kernel/google/tegra" remote="github" revision="dragon_shield" />
+  <project name="followmsi/android_vendor" path="vendor/google" remote="github" revision="dragon-10" /> 
+  
+</manifest>
