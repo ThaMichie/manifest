@@ -8,6 +8,6 @@
   
   <project name="ThaMichie/android_device_google_dragon_shield" path="device/google/dragon" remote="github" revision="aosp" />
   <project name="ThaMichie/android_kernel_google_dragon" path="kernel/google/tegra" remote="github" revision="dragon_shield" />
-  <project name="followmsi/android_vendor" path="vendor/google" remote="github" revision="dragon-10" /> 
+  <project name="followmsi/android_vendor" path="vendor/google" remote="github" revision="dragon-11" /> 
   
 </manifest>
