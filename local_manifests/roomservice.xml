@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="incom" fetch="https://gitlab.incom.co/" revision="lineage-20.0" />
+
+  <project name="thamichie/android_device_google_dragon" path="device/google/dragon" remote="github" revision="Lineage-20.0" />
+  <project name="thamichie/android_kernel_google_dragon" path="kernel/google/tegra" remote="github" revision="Dragon-13" />
+  <project name="thamichie/android_vendor_google_dragon" path="vendor/google/dragon" remote="github" revision="Dragon-13" />
+
+  <project name="CM-Shield/android_hardware_nvidia_interfaces.git" path="hardware/nvidia/interfaces" remote="incom" />
+  
+</manifest>
